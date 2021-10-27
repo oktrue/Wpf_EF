@@ -14,10 +14,8 @@
     <Window.DataContext>
         <local:MainViewModel />
     </Window.DataContext>
-      
+
     <Grid>
-
-        <DataGrid ItemsSource="{Binding Customers}"/>
-
+        <DataGrid ItemsSource="{Binding Fixtures}"/>
     </Grid>
 </Window>
